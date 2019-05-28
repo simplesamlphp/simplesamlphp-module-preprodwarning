@@ -2,6 +2,8 @@
 
 namespace SimpleSAML\Module\preprodwarning\Auth\Process;
 
+use Webmozart\Assert\Assert;
+
 /**
  * Give a warning that the user is accessing a test system, not a production system.
  *
@@ -21,7 +23,7 @@ class Warning extends \SimpleSAML\Auth\ProcessingFilter
      */
     public function process(&$state)
     {
-        assert(is_array($state));
+        Assert::isArray($state);
 
         if (isset($state['isPassive']) && $state['isPassive'] === true) {
             // We have a passive request. Skip the warning
