@@ -36,7 +36,7 @@
         "webmozart/assert": "^1.4"
     },
     "support": {
-        "issues": "https://github.com/tvdijen/simplesamlphp-module-preprodwarning/issues",
-        "source": "https://github.com/tvdijen/simplesamlphp-module-preprodwarning"
+        "issues": "https://github.com/simplesamlphp/simplesamlphp-module-preprodwarning/issues",
+        "source": "https://github.com/simplesamlphp/simplesamlphp-module-preprodwarning"
     }
 }
