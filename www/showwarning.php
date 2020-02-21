@@ -24,7 +24,7 @@ if (array_key_exists('yes', $_REQUEST)) {
 
 $globalConfig = \SimpleSAML\Configuration::getInstance();
 
-$t = new \SimpleSAML\XHTML\Template($globalConfig, 'preprodwarning:warning.php');
+$t = new \SimpleSAML\XHTML\Template($globalConfig, 'preprodwarning:warning.twig');
 $t->data['yesTarget'] = \SimpleSAML\Module::getModuleURL('preprodwarning/showwarning.php');
 $t->data['yesData'] = ['StateId' => $id];
-$t->show();
+$t->send();

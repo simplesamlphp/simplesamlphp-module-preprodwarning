@@ -21,10 +21,8 @@ class Warning extends \SimpleSAML\Auth\ProcessingFilter
      * @param array $state  The state of the response.
      * @return void
      */
-    public function process(&$state)
+    public function process(array &$state): void
     {
-        Assert::isArray($state);
-
         if (isset($state['isPassive']) && $state['isPassive'] === true) {
             // We have a passive request. Skip the warning
             return;
