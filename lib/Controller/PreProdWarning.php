@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 namespace SimpleSAML\Module\preprodwarning\Controller;
 
 use SimpleSAML\Auth;
@@ -73,7 +71,7 @@ class PreProdWarning
      *
      * @param \SimpleSAML\Auth\State $authState
      */
-    public function setAuthState(Auth\State $authState): void
+    public function setAuthState(Auth\State $authState)
     {
         $this->authState = $authState;
     }
@@ -84,7 +82,7 @@ class PreProdWarning
      *
      * @param \SimpleSAML\Auth\ProcessingChain $procChain
      */
-    public function setProcessingChain(Auth\ProcessingChain $procChain): void
+    public function setProcessingChain(Auth\ProcessingChain $procChain)
     {
         $this->procChain = $procChain;
     }
@@ -95,7 +93,7 @@ class PreProdWarning
      *
      * @param \SimpleSAML\Logger $logger
      */
-    public function setLogger(Logger $logger): void
+    public function setLogger(Logger $logger)
     {
         $this->logger = $logger;
     }
@@ -108,7 +106,7 @@ class PreProdWarning
      * @return \Symfony\Component\HttpFoundation\Response
      * @throws \Exception
      */
-    public function main(Request $request): Response
+    public function main(Request $request)
     {
         $this->logger::info('PreProdWarning - Showing warning to user');
 

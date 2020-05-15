@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 namespace SimpleSAML\Test\Module\preprodwarning\Controller;
 
 use PHPUnit\Framework\TestCase;
@@ -37,7 +35,7 @@ class PreProdWarningTest extends TestCase
      * Set up for each test.
      * @return void
      */
-    protected function setUp(): void
+    protected function setUp()
     {
         parent::setUp();
 
@@ -54,7 +52,7 @@ class PreProdWarningTest extends TestCase
         Configuration::setPreLoadedConfig($this->config, 'config.php');
 
         $this->logger = new class () extends Logger {
-            public static function info(string $str): void
+            public static function info($str)
             {
                 // do nothing
             }
@@ -66,7 +64,7 @@ class PreProdWarningTest extends TestCase
      * Test that a valid requests results in a Twig template
      * @return void
      */
-    public function testMissingStateIdThrowsException(): void
+    public function testMissingStateIdThrowsException()
     {
         $request = Request::create(
             '/warning',
@@ -87,7 +85,7 @@ class PreProdWarningTest extends TestCase
      * Test that a valid requests results in a Twig template
      * @return void
      */
-    public function testWarning(): void
+    public function testWarning()
     {
         $request = Request::create(
             '/warning',
@@ -98,7 +96,7 @@ class PreProdWarningTest extends TestCase
         $c = new Controller\PreProdWarning($this->config, $this->session);
         $c->setLogger($this->logger);
         $c->setAuthState(new class () extends State {
-            public static function loadState(string $id, string $stage, bool $allowMissing = false): ?array
+            public static function loadState($id, $stage, $allowMissing = false)
             {
                 return [];
             }
@@ -115,7 +113,7 @@ class PreProdWarningTest extends TestCase
     /**
      * @return void
      */
-    public function testWarningAccepted(): void
+    public function testWarningAccepted()
     {
         $request = Request::create(
             '/warning',
@@ -126,7 +124,7 @@ class PreProdWarningTest extends TestCase
         $c = new Controller\PreProdWarning($this->config, $this->session);
         $c->setLogger($this->logger);
         $c->setAuthState(new class () extends State {
-            public static function loadState(string $id, string $stage, bool $allowMissing = false): ?array
+            public static function loadState($id, $stage, $allowMissing = false)
             {
                 return [
                     ProcessingChain::FILTERS_INDEX => [],
@@ -140,7 +138,7 @@ class PreProdWarningTest extends TestCase
                 // stub
             }
 
-            public static function resumeProcessing(array $state): void
+            public static function resumeProcessing($state): void
             {
             }
         });
