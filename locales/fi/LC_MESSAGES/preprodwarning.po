@@ -15,19 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{preprodwarning:warning:warning_header}"
-msgstr "Varoitus testijärjestelmää siirtymisestä"
-
-msgid "{preprodwarning:warning:warning}"
-msgstr ""
-"Olet siirtymässä testijärjestelmään. Käyttäjätunnistus on tarkoitettu "
-"vain testaukseen. Jos sait linkin järjestelmään ja et ole "
-"<i>testikäyttäjä</i>, sait todennäköisesti väärän linkin ja sinun ei "
-"pitäisi <b>olla täällä</b>."
-
-msgid "{preprodwarning:warning:yes}"
-msgstr "Hyväksyn siirtyväni testijärjestelmään"
-
 msgid ""
 "You are now accessing a pre-production system. This authentication setup "
 "is for testing and pre-production verification only. If someone sent you "

@@ -16,20 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{preprodwarning:warning:warning_header}"
-msgstr "Įspėjimas apie kreipimąsi į nebaigtą diegti sistemą."
-
-msgid "{preprodwarning:warning:warning}"
-msgstr ""
-"Šiuo metu Jūs kreipiatės į nebaigtą diegti sistemą. Šie autentiškumo "
-"patvirtinimo nustatymai skirti tik testavimui ir sistemos veikimo "
-"tikrinimui. Jei kažkas Jums atsiuntė nuorodą, vedančią čia, ir Jūs nesate"
-" <i>testuotojas</i>, Jūs greičiausiai gavote neteisingą nuorodą ir "
-"<b>neturėtumėte čia būti</b>."
-
-msgid "{preprodwarning:warning:yes}"
-msgstr "Taip, aš žinau, kad kreipiuosi į nebaigtą diegti sistemą."
-
 msgid ""
 "You are now accessing a pre-production system. This authentication setup "
 "is for testing and pre-production verification only. If someone sent you "

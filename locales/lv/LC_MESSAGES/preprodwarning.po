@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{preprodwarning:warning:warning_header}"
-msgstr "Brīdinājums par testa sistēmas izmantošanu"
-
-msgid "{preprodwarning:warning:warning}"
-msgstr ""
-"Jūs izmantojat testa (pirmsprodukcijas) sistēmu. Šī autentifikācija ir "
-"tikai testēšanas vajadzībām. Ja kāds Jums atsūtījis saiti uz šejieni un "
-"Jūs neesat <i>testētājs</i>, Jums te <b>nav jāatrodas</b>."
-
-msgid "{preprodwarning:warning:yes}"
-msgstr "Jā, es zinu, ka es izmantoju testa (pirmsprodukcijas) sistēmu"
-
 msgid ""
 "You are now accessing a pre-production system. This authentication setup "
 "is for testing and pre-production verification only. If someone sent you "

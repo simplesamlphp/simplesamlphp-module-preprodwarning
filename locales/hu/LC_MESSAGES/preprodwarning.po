@@ -15,19 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{preprodwarning:warning:warning_header}"
-msgstr "Ez NEM egy éles rendszer!"
-
-msgid "{preprodwarning:warning:warning}"
-msgstr ""
-"Egy teszt, vagy fejlesztői oldalra jutottál. Az azonosítás csak próba "
-"miatt történik. Ha valaki olyan linket küldött, amire kattintva ide "
-"jutottál, és nem vagy <i>tesztelő</i>, valószínűleg elrontott valamit, és"
-" amit keresel, azt <b>itt nem találod</b>."
-
-msgid "{preprodwarning:warning:yes}"
-msgstr "Megértettem. Teszt rendszeren vagyok!"
-
 msgid ""
 "You are now accessing a pre-production system. This authentication setup "
 "is for testing and pre-production verification only. If someone sent you "

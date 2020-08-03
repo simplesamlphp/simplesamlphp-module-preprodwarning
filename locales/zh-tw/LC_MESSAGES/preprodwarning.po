@@ -15,17 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{preprodwarning:warning:warning_header}"
-msgstr "您正在存取一個非正式上線系統"
-
-msgid "{preprodwarning:warning:warning}"
-msgstr ""
-"您現在正在存取一個非正式上線系統。這個身分驗證環境僅是在測試及檢查非正式上線系統。如果有人傳遞這個連結給你，而你並非是 <i>測試人員</i> "
-"的話，你可能是取得一個錯誤連結，且您可能 <b>不適合在此</b>。"
-
-msgid "{preprodwarning:warning:yes}"
-msgstr "是的，我知道我正在存取一個非正式上線系統"
-
 msgid ""
 "You are now accessing a pre-production system. This authentication setup "
 "is for testing and pre-production verification only. If someone sent you "

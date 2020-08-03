@@ -16,20 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{preprodwarning:warning:warning_header}"
-msgstr "Upozorenje o pristupanju pred-produkcionom sistemu"
-
-msgid "{preprodwarning:warning:warning}"
-msgstr ""
-"Pristupate sistemu koji se nalazi u pred-produkcionoj fazi. Ova "
-"autentifikaciona podešavanja služe za testiranje i proveru ispravnosti "
-"rada pred-produkcionog sistema. Ako vam je neko poslao adresu koja "
-"pokazuje na ovu stranicu, a vi niste <i>osoba zadužena za testiranje</i>,"
-" verovatno ste <b>na ovu stranicu došli greškom</b>."
-
-msgid "{preprodwarning:warning:yes}"
-msgstr "Da, znam da pristupam sistemu koji je u pred-produkcionoj fazi"
-
 msgid ""
 "You are now accessing a pre-production system. This authentication setup "
 "is for testing and pre-production verification only. If someone sent you "

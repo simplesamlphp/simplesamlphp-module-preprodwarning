@@ -15,18 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{preprodwarning:warning:warning_header}"
-msgstr "הזהרה על גישה למערכת קדם-ייצור"
-
-msgid "{preprodwarning:warning:warning}"
-msgstr ""
-"אתה נגש למערכת קדם-ייצור. תצורת ההיזדהות הזו היא לבדיקה ולאימות מערכת "
-"הקדם-ייצור בלבד. אם מישהו שלח לך קישור שהצביע לכאן, ואתה לא <i>בודק</i> "
-"כנראה קיבלת קידור לא נכון, ואתה לא אמור להיות כאן   "
-
-msgid "{preprodwarning:warning:yes}"
-msgstr "כן, אני יודע שאני ניגש למערכת קדם-ייצור"
-
 msgid ""
 "You are now accessing a pre-production system. This authentication setup "
 "is for testing and pre-production verification only. If someone sent you "

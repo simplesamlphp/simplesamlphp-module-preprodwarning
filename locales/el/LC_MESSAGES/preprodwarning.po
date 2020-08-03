@@ -15,19 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{preprodwarning:warning:warning_header}"
-msgstr "Πρειδοποίηση σχετικά με την είσοδο σε δοκιμαστικό περιβάλλον"
-
-msgid "{preprodwarning:warning:warning}"
-msgstr ""
-"Εισέρχεστε σε περιβάλλον ταυτοποίησης χρηστών που εξυπηρετεί αποκλειστικά"
-" δοκιμαστικούς σκοπούς. Αν οδηγηθήκατε εδώ μέσω κάποιου συνδέσμου ενώ δεν"
-" είστε <i>δοκιμαστής (tester)</i>, τότε πρόκειται περί λάθους και <b>δεν "
-"πρέπει να βρίσκεστε εδώ</b>."
-
-msgid "{preprodwarning:warning:yes}"
-msgstr "Ναι, γνωρίζω ότι εισέρχομαι σε δοκιμαστικό περιβάλλον"
-
 msgid ""
 "You are now accessing a pre-production system. This authentication setup "
 "is for testing and pre-production verification only. If someone sent you "

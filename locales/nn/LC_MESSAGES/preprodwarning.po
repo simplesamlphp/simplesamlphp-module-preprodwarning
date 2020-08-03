@@ -15,19 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{preprodwarning:warning:warning_header}"
-msgstr "Varsel om tilgang til test-system"
-
-msgid "{preprodwarning:warning:warning}"
-msgstr ""
-"Du er no inne på eit testsystem.  Denne autentiseringsløysinga er for "
-"testing og beta-drift, ikkje for vanleg drift.  Dersom du har fått peikar"
-" hit og du ikkje er  <i>utviklar</i>, så er du truleg på feil plass og "
-"<i>skulle ikkje vore her</i>."
-
-msgid "{preprodwarning:warning:yes}"
-msgstr "Ja, eg veit at eg no går inn i ei løysing som ikkje er i drift, men i test"
-
 msgid ""
 "You are now accessing a pre-production system. This authentication setup "
 "is for testing and pre-production verification only. If someone sent you "

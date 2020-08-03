@@ -15,20 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{preprodwarning:warning:warning_header}"
-msgstr "Warnung beim Zugriff auf ein Pilotsystem"
-
-msgid "{preprodwarning:warning:warning}"
-msgstr ""
-"Sie greifen jetzt auf ein System im Pilotbetrieb zu. Diese "
-"Authentifizierungs-Konfiguration dient nur zum Testen und zur Überprüfung"
-" des Pilotbetriebes. Falls Ihnen jemand einen Link gesendet hat, der Sie "
-"hierher geführt hat und Sie sind kein <i>Tester</i>, so war der Link "
-"vermutlich falsch und Sie sollten <b>nicht hier sein</b>. "
-
-msgid "{preprodwarning:warning:yes}"
-msgstr "Ja, mir ist klar dass ich auf ein System im Pilotbetrieb zugreife"
-
 msgid ""
 "You are now accessing a pre-production system. This authentication setup "
 "is for testing and pre-production verification only. If someone sent you "

@@ -15,20 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{preprodwarning:warning:warning_header}"
-msgstr "Tamamlanmamış bir sisteme erişim hakkında uyarı"
-
-msgid "{preprodwarning:warning:warning}"
-msgstr ""
-"Şu anda tamamlanmamış bir sisteme giriyorsunuz. Bu doğrulama kurulumu "
-"sadece test ve tamamlanma öncesi onaylama amaçlıdır. Eğer birileri size "
-"burayı gösteren bir bağlantı gönderdiyse, ve siz <i>test edici</i> "
-"değilseniz, muhtemelen yanlış bir bağlantı aldınızı, ve şu anda <b>burada"
-" olmamalısınız</b>. "
-
-msgid "{preprodwarning:warning:yes}"
-msgstr "Evet, tamanlanmamış bir sisteme girdiğimin farkındayım."
-
 msgid ""
 "You are now accessing a pre-production system. This authentication setup "
 "is for testing and pre-production verification only. If someone sent you "

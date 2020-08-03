@@ -15,15 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{preprodwarning:warning:warning_header}"
-msgstr "試験環境へのアクセスについての警告"
-
-msgid "{preprodwarning:warning:warning}"
-msgstr "あなたは今試験環境へアクセスしています。この認証設定は試験環境のテストと検証の為のものです。もし誰かがこのリンクをあなたに送り、あなたが<i>テスター</i>でないのであれば恐らく間違ったリンクであり、ここに<b>来てはいけない</b>でしょう。"
-
-msgid "{preprodwarning:warning:yes}"
-msgstr "はい、私は試験環境にアクセスしている事を理解しています。"
-
 msgid ""
 "You are now accessing a pre-production system. This authentication setup "
 "is for testing and pre-production verification only. If someone sent you "

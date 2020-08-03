@@ -15,20 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-msgid "{preprodwarning:warning:warning_header}"
-msgstr "Waarskuwing oor toegang na 'n pre-produksie stelsel"
-
-msgid "{preprodwarning:warning:warning}"
-msgstr ""
-"Jy het nou toegang gekry tot 'n pre-produksie stelsel. Dié verifikasie "
-"opstel is vir die toets en pre-produksie verifikasie aleen. Indien iemand"
-" vir jou 'n skakel gestuur wat na hier verwys en jy is nie <i> 'n toets "
-"persoon nie </i> het jy waarskynlik die verkeerde skakel en moet <b> jy "
-"nie hier </b> wees nie."
-
-msgid "{preprodwarning:warning:yes}"
-msgstr "Ja, ek weet ek verkry toegang tot 'n pre-produksie stelsel"
-
 msgid ""
 "You are now accessing a pre-production system. This authentication setup "
 "is for testing and pre-production verification only. If someone sent you "
