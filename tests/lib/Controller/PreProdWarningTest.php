@@ -35,7 +35,6 @@ class PreProdWarningTest extends TestCase
 
     /**
      * Set up for each test.
-     * @return void
      */
     protected function setUp(): void
     {
@@ -64,7 +63,6 @@ class PreProdWarningTest extends TestCase
 
     /**
      * Test that a valid requests results in a Twig template
-     * @return void
      */
     public function testMissingStateIdThrowsException(): void
     {
@@ -85,7 +83,6 @@ class PreProdWarningTest extends TestCase
 
     /**
      * Test that a valid requests results in a Twig template
-     * @return void
      */
     public function testWarning(): void
     {
@@ -113,7 +110,6 @@ class PreProdWarningTest extends TestCase
 
 
     /**
-     * @return void
      */
     public function testWarningAccepted(): void
     {
