@@ -1,8 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace SimpleSAML\Module\preprodwarning\Auth\Process;
 
-use Webmozart\Assert\Assert;
+use SimpleSAML\Assert\Assert;
 
 /**
  * Give a warning that the user is accessing a test system, not a production system.

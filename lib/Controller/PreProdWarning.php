@@ -43,10 +43,10 @@ class PreProdWarning
     protected $logger = Logger::class;
 
     /** @var \SimpleSAML\Configuration */
-    protected $config;
+    protected Configuration $config;
 
     /** @var \SimpleSAML\Session */
-    protected $session;
+    protected Session $session;
 
 
     /**
