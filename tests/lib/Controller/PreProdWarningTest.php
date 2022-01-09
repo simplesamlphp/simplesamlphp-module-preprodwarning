@@ -53,7 +53,7 @@ class PreProdWarningTest extends TestCase
         Configuration::setPreLoadedConfig($this->config, 'config.php');
 
         $this->logger = new class () extends Logger {
-            public static function info(string $str): void
+            public static function info(string $string): void
             {
                 // do nothing
             }
