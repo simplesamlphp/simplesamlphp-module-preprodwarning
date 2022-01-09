@@ -112,7 +112,7 @@ class PreProdWarning
     {
         $this->logger::info('PreProdWarning - Showing warning to user');
 
-        $id = $request->get('StateId', null);
+        $id = $request->query->get('StateId', null);
         if ($id === null) {
             throw new Error\BadRequest('Missing required StateId query parameter.');
         }
@@ -120,7 +120,7 @@ class PreProdWarning
         /** @psalm-var array $state */
         $state = $this->authState::loadState($id, 'warning:request');
 
-        if ($request->get('yes')) {
+        if ($request->query->get('yes')) {
             // The user has pressed the yes-button
             return new RunnableResponse([$this->procChain, 'resumeProcessing'], [$state]);
         }

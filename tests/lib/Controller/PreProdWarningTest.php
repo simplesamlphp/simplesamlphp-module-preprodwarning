@@ -115,7 +115,7 @@ class PreProdWarningTest extends TestCase
     {
         $request = Request::create(
             '/warning',
-            'POST',
+            'GET',
             ['StateId' => 'someStateId', 'yes' => 'yes']
         );
 
