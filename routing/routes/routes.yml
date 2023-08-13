@@ -1,3 +1,4 @@
 preprodwarning-main:
     path:       /warning
     defaults:   { _controller: 'SimpleSAML\Module\preprodwarning\Controller\PreProdWarning::main' }
+    methods: [GET]
