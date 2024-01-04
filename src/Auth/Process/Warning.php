@@ -34,7 +34,7 @@ class Warning extends Auth\ProcessingFilter
 
         // Save state and redirect.
         $id = Auth\State::saveState($state, 'warning:request');
-        $url = Module::getModuleURL('preprodwarning/showwarning.php');
+        $url = Module::getModuleURL('preprodwarning/warning');
         $httpUtils = new Utils\HTTP();
         $httpUtils->redirectTrustedURL($url, ['StateId' => $id]);
     }
