@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace SimpleSAML\Module\preprodwarning\Auth\Process;
 
-use SimpleSAML\Assert\Assert;
 use SimpleSAML\Auth;
 use SimpleSAML\Module;
 use SimpleSAML\Utils;

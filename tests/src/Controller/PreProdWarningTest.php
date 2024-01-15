@@ -5,13 +5,12 @@ declare(strict_types=1);
 namespace SimpleSAML\Test\Module\preprodwarning\Controller;
 
 use PHPUnit\Framework\TestCase;
-use SimpleSAML\Auth\State;
 use SimpleSAML\Auth\ProcessingChain;
+use SimpleSAML\Auth\State;
 use SimpleSAML\Configuration;
 use SimpleSAML\Error;
 use SimpleSAML\HTTP\RunnableResponse;
 use SimpleSAML\Logger;
-use SimpleSAML\Module;
 use SimpleSAML\Module\preprodwarning\Controller;
 use SimpleSAML\Session;
 use SimpleSAML\XHTML\Template;
