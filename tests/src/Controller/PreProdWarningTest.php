@@ -125,7 +125,7 @@ class PreProdWarningTest extends TestCase
             {
                 return [
                     ProcessingChain::FILTERS_INDEX => [],
-                    'ReturnURL' => 'https://example.org'
+                    'ReturnURL' => 'https://example.org',
                 ];
             }
         });
