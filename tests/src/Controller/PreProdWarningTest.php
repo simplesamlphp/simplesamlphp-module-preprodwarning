@@ -44,7 +44,7 @@ class PreProdWarningTest extends TestCase
                 'module.enable' => ['preprodwarning' => true],
             ],
             '[ARRAY]',
-            'simplesaml'
+            'simplesaml',
         );
 
         $this->session = Session::getSessionFromRequest();
@@ -67,7 +67,7 @@ class PreProdWarningTest extends TestCase
     {
         $request = Request::create(
             '/warning',
-            'GET'
+            'GET',
         );
 
         $c = new Controller\PreProdWarning($this->config, $this->session);
@@ -88,7 +88,7 @@ class PreProdWarningTest extends TestCase
         $request = Request::create(
             '/warning',
             'GET',
-            ['StateId' => 'someStateId']
+            ['StateId' => 'someStateId'],
         );
 
         $c = new Controller\PreProdWarning($this->config, $this->session);
@@ -115,7 +115,7 @@ class PreProdWarningTest extends TestCase
         $request = Request::create(
             '/warning',
             'GET',
-            ['StateId' => 'someStateId', 'yes' => 'yes']
+            ['StateId' => 'someStateId', 'yes' => 'yes'],
         );
 
         $c = new Controller\PreProdWarning($this->config, $this->session);
