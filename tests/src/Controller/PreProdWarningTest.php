@@ -32,6 +32,7 @@ class PreProdWarningTest extends TestCase
     /** @var \SimpleSAML\Session */
     protected Session $session;
 
+
     /**
      * Set up for each test.
      */
@@ -94,7 +95,7 @@ class PreProdWarningTest extends TestCase
         $c = new Controller\PreProdWarning($this->config, $this->session);
         $c->setLogger($this->logger);
         $c->setAuthState(new class () extends State {
-            public static function loadState(string $id, string $stage, bool $allowMissing = false): ?array
+            public static function loadState(string $id, string $stage, bool $allowMissing = false): array
             {
                 return [];
             }
@@ -121,7 +122,7 @@ class PreProdWarningTest extends TestCase
         $c = new Controller\PreProdWarning($this->config, $this->session);
         $c->setLogger($this->logger);
         $c->setAuthState(new class () extends State {
-            public static function loadState(string $id, string $stage, bool $allowMissing = false): ?array
+            public static function loadState(string $id, string $stage, bool $allowMissing = false): array
             {
                 return [
                     ProcessingChain::FILTERS_INDEX => [],
@@ -134,6 +135,7 @@ class PreProdWarningTest extends TestCase
             {
                 // stub
             }
+
 
             public static function resumeProcessing(array $state): void
             {

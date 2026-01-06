@@ -22,7 +22,7 @@ class Warning extends Auth\ProcessingFilter
      * This function saves the state, and redirects the user to the page where the user
      * can authorize the release of the attributes.
      *
-     * @param array $state  The state of the response.
+     * @param array<mixed> $state  The state of the response.
      */
     public function process(array &$state): void
     {

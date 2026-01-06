@@ -117,7 +117,7 @@ class PreProdWarning
             throw new Error\BadRequest('Missing required StateId query parameter.');
         }
 
-        /** @psalm-var array $state */
+        /** @var array<mixed> $state */
         $state = $this->authState::loadState($id, 'warning:request');
 
         if ($request->query->get('yes')) {
